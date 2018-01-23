@@ -3,27 +3,6 @@ import '../App.css';
 
 class MyList extends Component {
 
-    getMyList() {
-        // const FETCH_URL = 'http://localhost:3000/mockData/myList.json';//'../mockData/myList';
-        // const myOptions = {
-        //     method: 'GET',
-        //     headers:  {
-        //         'Accept': 'application/json',
-        //         'Content-Type': 'application/json'
-        //     }
-        // };
-        // fetch(FETCH_URL, myOptions)
-        //     .then(response => response.json())
-        //     .then(json => {
-        //         console.log('json', json);
-        //         const { myList } = json;
-        //         this.setState({ myList });
-        //     })
-        //     .catch(error => {
-        //         console.log('Error fetching myList', error);
-        // });
-    }
-
     removeMyListItem(movie) {
         this.props.removeMyListItem(movie);
     }

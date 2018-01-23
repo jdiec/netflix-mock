@@ -1,4 +1,9 @@
-$ npm install
+Steps:
+1. Open two terminals, navigate to project in both
+2. Main terminal $ npm install
+3. Main terminal $ npm start 
+4. Second terminal $ json-server -p 8000 db.json
+
 
 The task is to create a mock Netflix like page with editable rows of titles using any framework you want.
 
