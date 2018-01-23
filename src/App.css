@@ -18,6 +18,7 @@ hr {
     right: 0;
     border-radius: 0;
     height: 60px;
+    z-index: 1000;
 }
 
 .netflix-icon {
@@ -26,6 +27,7 @@ hr {
 }
 
 .section-title {
+    color: #c6c5c5;
     font-size: 16px;
     margin-left: 10px;
 }
@@ -40,11 +42,15 @@ hr {
 }
 
 .movie {
-    border: 3px solid #fff;
+    border: 3px solid #DEB887;
     display: inline-block;
     margin: 10px;
     height: 300px;
     width: 220px;
+}
+
+.movie:hover {
+    border-color: #fff;
 }
 
 .movie-content {
