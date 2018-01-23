@@ -26,12 +26,13 @@ class Recommendations extends Component {
                                     <img 
                                         src={ movie.img }
                                         alt={ movie.title }/>
-                                    <div className="movie-menu">
+                                    <div 
+                                        onClick={ () => this.addRecommendationToMyList(movie) }
+                                        className="movie-menu">
                                         <p className="movie-text">
                                             { movie.title }
                                         </p>
                                         <span 
-                                            onClick={ () => this.addRecommendationToMyList(movie)}
                                             className="movie-add">
                                             <i className="glyphicon glyphicon-plus"></i>
                                             Add

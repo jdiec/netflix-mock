@@ -48,13 +48,13 @@ class MyList extends Component {
                                         className="img-responsive"
                                         src={ movie.img } 
                                         alt={ movie.title }/>
-                                    <div className="movie-menu">
+                                    <div 
+                                        onClick={ () => this.removeMyListItem(movie) }
+                                        className="movie-menu">
                                         <p className="movie-text">
                                             { movie.title }
                                         </p>
-                                        <span 
-                                            className="movie-remove"
-                                            onClick={ () => this.removeMyListItem(movie) }>
+                                        <span className="movie-remove">
                                             <i className="glyphicon glyphicon-remove"></i>
                                             Remove
                                         </span>

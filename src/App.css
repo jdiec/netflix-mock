@@ -81,8 +81,6 @@ hr {
 
 .movie-remove, .movie-add {
     display: none;
-    height: inherit;
-    width: inherit;
 }
 
 .movie-remove .glyphicon, .movie-add .glyphicon {
